@@ -4,7 +4,7 @@ namespace SlmQueueAmqTest\Controller;
 
 use PHPUnit_Framework_TestCase as TestCase;
 use SlmQueueAmq\Controller\AmqWorkerController;
-use Zend\Mvc\Router\RouteMatch;
+use Zend\Router\RouteMatch;
 
 class AmqWorkerControllerTest extends TestCase
 {

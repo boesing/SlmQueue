@@ -1,6 +1,6 @@
 {
     "name": "slm/queue-amq",
-    "description": "Zend Framework 2 module that integrates with Active MQ queuing system",
+    "description": "Zend Framework 3 module that integrates with Active MQ queuing system",
     "license": "BSD-3-Clause",
     "type": "library",
     "keywords": [
@@ -22,9 +22,9 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "zendframework/zend-mvc": "^2.2",
-        "zendframework/zend-servicemanager": "^2.7.6 || ^3.0",
-        "zendframework/zend-stdlib": "^2.2",
+        "zendframework/zend-mvc": "^3.0",
+        "zendframework/zend-servicemanager": "^3.0",
+        "zendframework/zend-stdlib": "^3.0",
         "slm/queue": "^1.0",
         "fusesource/stomp-php": "~2.1"
     },
